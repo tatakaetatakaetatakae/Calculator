@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <input id="display" readonly>
+        <div id="enteries">
+            <button onclick="pushToDisplay('+')" class="operator">+</button>
+            <button onclick="pushToDisplay('7')">7</button>
+            <button onclick="pushToDisplay('8')">8</button>
+            <button onclick="pushToDisplay('9')">9</button>
+            <button onclick="pushToDisplay('-')" class="operator">-</button>
+            <button onclick="pushToDisplay('4')">4</button>
+            <button onclick="pushToDisplay('5')">5</button>
+            <button onclick="pushToDisplay('6')">6</button>
+            <button onclick="pushToDisplay('*')" class="operator">*</button>
+            <button onclick="pushToDisplay('1')">1</button>
+            <button onclick="pushToDisplay('2')">2</button>
+            <button onclick="pushToDisplay('3')">3</button>
+            <button onclick="pushToDisplay('/')" class="operator">/</button>
+            <button onclick="pushToDisplay('0')">0</button>
+            <button onclick="pushToDisplay('.')">.</button>
+            <button id="eval" onclick="calculate()">=</button>
+            <button id="clear" onclick="clearDisplay()">C</button>
+            
+        </div>
+    </div>
+</body>
+</html>
